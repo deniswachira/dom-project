@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>movie list</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />     -->
+</head>
+  <body>
+   <div id="wrapper">
+    <header>
+        <div class="page-banner">
+            <h1>Movie Time</h1>
+            <p>Accurate list of amazing movies</p>
+        </div>
+    </header>
+    <div id="movie-list">
+        <h2>Movies to watch</h2>
+        <ul>
+            <li class="movie">
+                <span class="movie-name">The Shawshank Redemption</span>
+                <span class="delete material-symbols-outlined">delete</span>
+            </li>
+            <li class="movie">
+                <span class="movie-name">The Shawshank Redemption</span>
+                <span class="delete material-symbols-outlined">delete</span>
+            </li>
+            
+            <li class="movie">
+                <span class="movie-name">The Shawshank Redemption</span>
+                <span class="delete material-symbols-outlined">delete</span>
+            </li>
+            
+            <li class="movie">
+                <span class="movie-name">The Shawshank Redemption</span>
+                <span class="delete material-symbols-outlined">delete</span>
+            </li>  
+    </div>
+    <form id="add-movie">
+        <input type="text" name="movie" id="movie" placeholder="Add a movie">
+        <button type="submit" class="material-symbols-outlined">add</button>       
+    </form>   
+   </div>
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
